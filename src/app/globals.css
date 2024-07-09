@@ -1,3 +1,7 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 :root {
   --g-color-black: #000;
   --g-color-white: #fff;
@@ -155,7 +159,8 @@ a {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 45rem;
+  height: 100%;
+  padding: 90px;
   justify-content: center;
   text-align: center;
 }
@@ -169,7 +174,10 @@ a {
 }
 
 .card {
-  background: var(--g-color-black);
+  background: url("a.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: var(--g-border-radius-large);
   box-shadow: var(--g-box-shadow);
   color: var(--g-color-white);

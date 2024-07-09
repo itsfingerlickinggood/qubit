@@ -6,10 +6,10 @@ import {
 } from "@kinde-oss/kinde-auth-nextjs/components";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import Link from "next/link";
-
+import Icon from "./logo.ico";
 export const metadata = {
-  title: "Kinde Auth",
-  description: "Kinde with NextJS App Router",
+  title: "Qubit",
+  description: "entropy-com",
 };
 
 export default async function RootLayout({
@@ -21,6 +21,9 @@ export default async function RootLayout({
   const user = await getUser();
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href={Icon.src} type="image/x-icon" />{" "}
+      </head>
       <body>
         <header>
           <nav className="nav container">
@@ -63,16 +66,16 @@ export default async function RootLayout({
         <main>{children}</main>
         <footer className="footer">
           <div className="container">
-            <strong className="text-heading-2">KindeAuth</strong>
+            <strong className="text-heading-2">Qubit</strong>
             <p className="footer-tagline text-body-3">
               Visit our{" "}
-              <Link className="link" href="https://kinde.com/docs">
-                help center
+              <Link className="link" href="https://github.com/entropy-com">
+                Org
               </Link>
             </p>
 
             <small className="text-subtle">
-              © 2023 KindeAuth, Inc. All rights reserved
+              © 2024 Qubit, Inc. All rights reserved
             </small>
           </div>
         </footer>
