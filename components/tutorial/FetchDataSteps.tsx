@@ -57,7 +57,7 @@ export default function FetchDataSteps() {
             href="https://supabase.com/dashboard/project/_/editor"
             className="font-bold hover:underline text-foreground/80"
             target="_blank"
-            rel="noreferrer"
+            rel="noreferrer noopener"
           >
             Table Editor
           </a>{" "}
@@ -68,7 +68,7 @@ export default function FetchDataSteps() {
             href="https://supabase.com/dashboard/project/_/sql/new"
             className="font-bold hover:underline text-foreground/80"
             target="_blank"
-            rel="noreferrer"
+            rel="noreferrer noopener"
           >
             SQL Editor
           </a>{" "}
