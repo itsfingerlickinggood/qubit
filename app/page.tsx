@@ -26,7 +26,7 @@ export default async function Index() {
       <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16">
         <div className="w-full max-w-10xl flex justify-between items-center p-3 text-sm">
           {isSupabaseConnected && <AuthButton />}
-          Hello World!
+          Hello World !
         </div>
       </nav>
     </div>
