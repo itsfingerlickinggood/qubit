@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import type { AppProps } from "next/app";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
+import { Toaster } from "react-hot-toast";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -41,6 +42,7 @@ export default async function Index() {
           Hello World !
         </div>
       </nav>
+      <Toaster />
     </div>
   );
 }
