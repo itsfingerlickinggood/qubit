@@ -213,13 +213,13 @@ a {
 
 .avatar {
   align-items: center;
-  background-color: var(--g-color-grey-100);
   border-radius: var(--g-border-radius-large);
   display: flex;
   height: var(--g-spacing-3x-large);
   justify-content: center;
   text-align: center;
   width: var(--g-spacing-3x-large);
+  background: linear-gradient(0deg, rgb(84, 84, 84), rgb(255, 157, 0));
 }
 
 .profile-blob {
@@ -231,4 +231,22 @@ a {
 
 .next-steps-section {
   margin-top: var(--g-spacing-2x-large);
+}
+
+.paragraph-2 {
+  font-weight: 600;
+  text-decoration: dashed;
+  background: linear-gradient(90deg, rgb(188, 139, 48), rgb(98, 98, 101));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-working {
+  border-radius: 7px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 10px 1px;
+}
+
+.text-edit {
+  margin-left: -1990px;
+  font-weight: 100;
 }

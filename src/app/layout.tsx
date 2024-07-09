@@ -7,6 +7,10 @@ import {
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import Link from "next/link";
 import Icon from "./logo.ico";
+import Icon2 from "./logo.png";
+
+import Image from "next/image";
+
 export const metadata = {
   title: "Qubit",
   description: "entropy-com",
@@ -22,12 +26,19 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href={Icon.src} type="image/x-icon" />{" "}
+        <link rel="icon" href={Icon2.src} type="image/x-icon" />
       </head>
       <body>
         <header>
           <nav className="nav container">
-            <h1 className="text-display-3">KindeAuth</h1>
+            <Image
+              src={Icon.src}
+              width={50}
+              height={50}
+              alt="logo"
+              className="border-working"
+            />
+            <h1 className="text-display-1 ml-11 text-edit">Qubit</h1>
             <div>
               {!(await isAuthenticated()) ? (
                 <>

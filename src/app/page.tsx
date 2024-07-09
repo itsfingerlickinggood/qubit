@@ -2,21 +2,17 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="container">
-      <div className="card hero">
+    <div className="container ">
+      <div className="card hero ">
         <p className="text-display-1 hero-title">
-          Let’s start authenticating <br /> with KindeAuth
+          Qubit <br />
         </p>
-        <p className="text-body-1 hero-tagline">Configure your app</p>
-
-        <Link
-          href="https://kinde.com/docs/sdks/nextjs-sdk"
-          target="_blank"
-          rel="noreferrer"
-          className="btn btn-light btn-big"
-        >
-          Go to docs
-        </Link>
+        <p className="text-body-1 hero-tagline">
+          An AI startup designed for experience.
+        </p>
+        <p className="text-body-1 hero-tagline paragraph-2">
+          For The Past . For the Present . For the Future{" "}
+        </p>
       </div>
     </div>
   );
