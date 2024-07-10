@@ -257,3 +257,13 @@ a {
   color: rgb(0, 0, 0);
   border-radius: 10px;
 }
+
+.card-2 {
+  background: url("a.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: var(--g-border-radius-large);
+  box-shadow: var(--g-box-shadow);
+  color: var(--g-color-white);
+}

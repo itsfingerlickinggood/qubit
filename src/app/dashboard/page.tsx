@@ -1,8 +1,8 @@
 export default function Dashboard() {
   return (
     <div className="container">
-      <div className="card start-hero">
-        <p className="text-body-2 start-hero-intro">Woohoo!</p>
+      <div className="card-2 start-hero">
+        <p className="text-body-2 start-hero-intro">Woohoo</p>
         <p className="text-display-2">
           Your authentication is all sorted.
           <br />
