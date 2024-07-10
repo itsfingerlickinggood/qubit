@@ -219,7 +219,7 @@ a {
   justify-content: center;
   text-align: center;
   width: var(--g-spacing-3x-large);
-  background: linear-gradient(0deg, rgb(84, 84, 84), rgb(255, 157, 0));
+  background: linear-gradient(0deg, rgb(71, 71, 71), rgb(255, 157, 0));
 }
 
 .profile-blob {
